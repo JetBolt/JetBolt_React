@@ -1,7 +1,7 @@
 # JetBolt React Library
 ## The Easiest Way To Use Skale Network
 
-Welcome to the JetBolt React Library, the simplest and most efficient way to integrate your React applications with the Skale Network. Our library offers a comprehensive suite of hooks and components designed to streamline the process of implementing blockchain functionalities, such as wallet management, transaction signing, and smart contract interactions. Whether you're building complex dApps or simply exploring blockchain capabilities, JetPaw provides you with the tools necessary to connect, interact, and execute securely on the Skale Network. Get started easily with our installation guide below, and enhance your applications with powerful Web3 features today.
+Welcome to the JetBolt React Library, the simplest and most efficient way to integrate your React applications with the Skale Network. Our library offers a comprehensive suite of hooks and components designed to streamline the process of implementing blockchain functionalities, such as wallet management, transaction signing, and smart contract interactions. Whether you're building complex dApps or simply exploring blockchain capabilities, JetBolt provides you with the tools necessary to connect, interact, and execute securely on the Skale Network. Get started easily with our installation guide below, and enhance your applications with powerful Web3 features today.
 
 ### 1. Instalation
 
@@ -25,14 +25,14 @@ npm run build
 
 ### 2. Usage
 
-Once the library is installed, you simple need to wrap your react components with `JetPaw` and our hooks and functions will automatically become available within the wrapped components. For example:
+Once the library is installed, you simple need to wrap your react components with `JetBolt` and our hooks and functions will automatically become available within the wrapped components. For example:
 
 ```js
 import { JetBolt, useJetBolt } from "JetBolt";
 
 function My_Component() {
 
-    let { is_authorized } = useJetPaw();
+    let { is_authorized } = useJetBolt();
     
     return (
         <>
@@ -56,7 +56,7 @@ function Exporable_Component() {
 
 ### 3. Contract Call
 
-Now that you have setup your basic environment, we can get started with an example on how you can use JetBolt to sign and send real transactions. First, let's have a quick look at what's included inside of the `useJetPaw` hook.
+Now that you have setup your basic environment, we can get started with an example on how you can use JetBolt to sign and send real transactions. First, let's have a quick look at what's included inside of the `useJetBolt` hook.
 
 ```js
 let {
@@ -109,7 +109,7 @@ Now that you have configured your chain, we can go ahead and request permission 
 
 ```js
 import React, { useEffect } from "react";
-import { JetBolt, useJetBolt } from "JetPaw";
+import { JetBolt, useJetBolt } from "JetBolt";
 import sample_contract_json from "./assets/sample_contract.json"
 
 function My_Component() {
@@ -232,7 +232,7 @@ call_contract_with_session("tx description...","contract address", abi, "functio
 
 ### 5. Signing Messages
 
-In addition to sending transactions, you can also sign messages using the JetPaw wallet. Below is a simple example:
+In addition to sending transactions, you can also sign messages using the JetBolt wallet. Below is a simple example:
 
 ```js
 async function sign() {
