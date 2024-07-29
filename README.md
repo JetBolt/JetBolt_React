@@ -8,13 +8,13 @@ Welcome to the JetBolt React Library, the simplest and most efficient way to int
 If you are using npm you can easily install our library using the following command:
 
 ```sh
-npm i jetbolt_react
+npm i jetbolt-react
 ```
 
 If you are using yarn you can also simply run:
 
 ```sh
-yarn add jetbolt_react
+yarn add jetbolt-react
 ```
 
 Alternatively you can use download the files in `src` and reference them in your project or build the the `dist` yourself with the following command:
