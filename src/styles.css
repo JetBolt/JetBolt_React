@@ -1,0 +1,12 @@
+.jetbolt_iframe_hidden {
+    position: fixed;
+    top: -100px;
+    left: -100px;
+    width: 10px;
+    height: 10px;
+    opacity: 0;
+    z-index: 0;
+    background: transparent;
+    pointer-events: none;
+    border: none;
+}
